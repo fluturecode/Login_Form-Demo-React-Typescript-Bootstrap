@@ -1,8 +1,10 @@
-import Login from "./components/login/Login"
+import { HomePage } from "./pages/HomePage"
 function App() {
 	return (
 		<>
-			<Login />
+			<HomePage />
+			{/* <LoginPage/>
+		<SignUpPage/> */}
 		</>
 	)
 }
